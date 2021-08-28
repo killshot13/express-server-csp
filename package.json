@@ -1,0 +1,28 @@
+{
+  "name": "express-server-csp",
+  "version": "1.0.0",
+  "description": "Express server running on Node and using Helmet.js middleware and https://report-uri.com to collect CSP & NEL errors.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "express-rate-limit": "5.3.0",
+    "helmet": "^4.6.0",
+    "network-error-logging": "^1.2.1",
+    "report-to": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "nel",
+    "csp",
+    "helmet",
+    "report-uri",
+    "node"
+  ]
+}
