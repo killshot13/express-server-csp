@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "4.17.1",
     "express-rate-limit": "5.3.0",
-    "helmet": "^4.6.0",
+    "helmet": "^5.0.2",
     "network-error-logging": "^1.2.1",
     "report-to": "^1.1.0"
   },
